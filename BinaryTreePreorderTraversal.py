@@ -2,7 +2,7 @@ from Ulti import *
 class BinaryTreePreorderTraversal:
     def preorderTraversal(self, root):
         res = []
-        if root == None:
+        if root is None:
             return res
 
         stack = [root]
@@ -26,6 +26,6 @@ root.left = node1
 root.right = node2
 
 res = mySolution.preorderTraversal(root)
-print (res)
+print ( res )
 
 
