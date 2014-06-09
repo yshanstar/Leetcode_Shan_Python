@@ -26,6 +26,7 @@ class BinaryTreeMaximumPathSum:
         if root is None:
             return 0
 
+        # init
         total = root.val
         lmax = 0
         rmax = 0
