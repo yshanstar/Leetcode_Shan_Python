@@ -9,7 +9,7 @@ class ConvertSortedArraytoBinarySearchTree:
     # @param num, a list of integers
     # @return a tree node
     def sortedArrayToBST(self, num):
-        return createBST(num, 0, len(num)-1)
+        return self.createBST(num, 0, len(num)-1)
 
     def createBST(self, num, start, end):
         if start > end:
