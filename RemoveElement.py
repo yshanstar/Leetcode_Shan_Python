@@ -14,3 +14,6 @@ class RemoveElement:
                 A[end] = i
                 end += 1
         return end
+
+myTest = RemoveElement()
+print (myTest.removeElement([1,2,3,4], 1))
